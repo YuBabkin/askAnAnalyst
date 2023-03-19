@@ -20,7 +20,7 @@ def analysts_answer():
                        "Ну и с какого комита така ебала завелась?!",
                        "И чё, бля?"]
 
-    a = random.randint(1, len(list_of_answers)-1 )
+    a = random.randint(0, len(list_of_answers))
 
     print(list_of_answers[a])
 
